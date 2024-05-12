@@ -1,0 +1,85 @@
+ 
+
+/* Code is correct but my google browser is not supporting for responsive code */
+
+
+
+@media screen   {
+   
+   .nav-list{
+      flex-direction:column;
+   }
+ 
+   .navbar{
+
+      flex-direction: column;
+      transition: all 0.7s ease-out;
+      height: 447px;
+         }
+   
+    .rightnav{
+   
+      text-align: center;
+    }
+
+    #search{
+
+      width: 100%;
+    }
+
+    .burger{
+
+      display: block;
+   }
+
+   .box-main{
+
+      flex-direction: column-reverse;
+      max-width: 100%;
+    
+     }
+    
+
+     .h-nav-resp{
+
+      height: 69px;
+      
+      }
+      
+      .v-class-resp{
+      
+         opacity: 0;
+      }
+      
+      .section{
+      
+      
+         flex-direction: column-reverse;
+      }
+      
+      
+      .text-big{
+      
+         text-align: center;
+      }
+      
+      .text-small{
+      
+         text-align: center;
+      }
+      
+      .button{
+      
+      text-align: center;
+      
+      }
+      
+      .paras{
+      
+      
+         padding: 0px;
+      }
+      
+
+
+}
